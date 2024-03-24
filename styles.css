@@ -1,10 +1,162 @@
+@font-face {
+  font-family: "Northen Rough";
+  src: url(./fonts/NORTHDENROUGH-FREE.ttf) format("truetype");
+}
+@font-face {
+  font-family: "axon regular";
+  src: url(./fonts/Axon-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "axon bold";
+  src: url(./fonts/Axon-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "lacquer regular";
+  src: url(./fonts/Lacquer-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "dream catcher";
+  src: url(./fonts/Dream\ Catcher.ttf) format("truetype");
+}
+@font-face {
+  font-family: "myraid pro";
+  src: url(./fonts/Myriad\ Pro\ Bold.ttf) format("truetype");
+}
+
 .main {
-    max-width: 100%;
-    max-height: 100%;
-    background: radial-gradient(221.6% 141.42% at 0% 0%, rgba(7, 7, 27, 0.88) 0%, rgba(2, 2, 6, 0.98) 47.14%, #000 100%);
+  background: radial-gradient(
+    221.6% 141.42% at 0% 0%,
+    rgba(7, 7, 27, 0.88) 0%,
+    rgba(2, 2, 6, 0.98) 47.14%,
+    #000 100%
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 .pic {
-    padding: 87px 151px 0px 429px;
-    width : auto;
-    height : auto;
+  /* padding: 0px 151px 0px 1429px; */
+  width: auto;
+  height: 85%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+
+.center {
+  color: #fff;
+  margin-top: "50%";
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.center #hello {
+  font-family: "NORTHDEN ROUGH";
+  font-size: 120px;
+  letter-spacing: 7.5px;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center #line {
+  position: absolute;
+  top: 57.6%;
+  left: 42%;
+  width: 62px;
+  height: 0.5px;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.center #slogan {
+  font-family: "lacquer regular";
+  font-size: 16px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+
+.logo {
+  color: #fff;
+}
+.logo #name {
+  font-family: "axon bold";
+  position: absolute;
+  top: 5.5%;
+  left: 6.5%;
+  font-weight: 700;
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.638px;
+}
+
+.logo #k {
+  font-family: "dream catcher";
+  position: absolute;
+  top: -6%;
+  left: 3%;
+  font-size: 60px;
+}
+
+.logo #insta {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.navBar {
+  color: #fff;
+  font-family: "axon regular";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  width: 50%;
+  margin: auto;
+  letter-spacing: 1.25px;
+}
+
+.navBar #about {
+  position: absolute;
+  top: 5%;
+  left: 37%;
+}
+
+.navBar #projects {
+  position: absolute;
+  top: 5%;
+  left: 43%;
+}
+
+.navBar #resume {
+  position: absolute;
+  top: 5%;
+  left: 51%;
+}
+
+.navBar #blog {
+  position: absolute;
+  top: 5%;
+  left: 58%;
 }
