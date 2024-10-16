@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Northen Rough";
+  src: url(../src/assets/fonts/NORTHDENROUGH-FREE.ttf) format("truetype");
+}
+@font-face {
+  font-family: "axon regular";
+  src: url(../src/assets/fonts/Axon-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "axon bold";
+  src: url(../src/assets/fonts/Axon-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "dream catcher";
+  src: url(../src/assets/fonts/Dream-Catcher.ttf) format("truetype");
+}
+
+*{
+  padding : 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #171717;
+  min-height: 100vh;
+}
+
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}

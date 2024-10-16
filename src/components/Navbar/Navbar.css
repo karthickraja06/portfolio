@@ -1,0 +1,92 @@
+a {
+    text-decoration: none; 
+    color: inherit;        
+}
+.navbar {
+    display: flex;
+    padding: 40px 30px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: sticky;    
+    top: 0;
+    z-index: 1000;           
+    width: 100%;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap:20px;
+}
+
+.navbar .k {
+    font-family: 'dream catcher', sans-serif;
+    font-size: 3rem; 
+    gap: 10px;
+}
+
+.navbar .karthick {
+    font-family: 'axon bold', sans-serif;
+    font-size: 0.8rem;
+}
+
+.navbar .navigation {
+    font-family: 'axon regular', sans-serif;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 300;
+    list-style: none;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navbar .navigation a {
+    color: white;
+    padding: 10px;
+}
+
+.navbar .navigation a:hover {
+    color: #007bff;  /* Add a hover effect */
+}
+
+.navbar .contact-container button{
+    width: 100%;
+    position: relative;
+    border-radius: 24px;
+    border: none;
+    background-color: rgba(65, 69, 100, 0.5);
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.navbar .contactme{
+    position: absolute;
+    padding: 20px 10px;
+    top: 15px;
+    left: 24px;
+    
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .navbar .k {
+        font-size: 2rem;  /* Adjust size on smaller screens */
+    }
+
+    .navbar .karthick {
+        font-size: 0.9rem;
+    }
+
+    .navbar .navigation {
+        flex-direction: column;
+        gap: 10px;   /* Adjust gap for smaller screens */
+    }
+}
