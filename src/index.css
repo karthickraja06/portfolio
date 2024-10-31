@@ -19,7 +19,9 @@
   src: url(../src/assets/fonts/Dream-Catcher.ttf) format("truetype");
 }
 
+
 *{
+
   padding : 0;
   margin: 0;
   box-sizing: border-box;
@@ -29,7 +31,7 @@
 
 body {
   background-color: #171717;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 

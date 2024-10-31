@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import Meteors from '../ui/meteors'
 
 const Navbar = () => {
   return (
@@ -18,7 +17,7 @@ const Navbar = () => {
             <a href="#">RESUME</a>
             <a href="#">BLOG</a>
         </ul>
-        {/* <Meteors/> */}
+        
         <div className="contact-container">
             <button className='contactme'>Contact Me</button>
         </div>

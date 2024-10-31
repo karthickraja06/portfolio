@@ -1,6 +1,6 @@
 "use client";;
 import { useEffect, useState } from "react";
-
+import './particle.css'
 import { cn } from "@/lib/utils";
 
 export const Meteors = ({
@@ -17,6 +17,7 @@ export const Meteors = ({
     }));
     setMeteorStyles(styles);
   }, [number]);
+  console.log(meteorStyles);
 
   return (<>
     {[...meteorStyles].map((style, idx) => (
